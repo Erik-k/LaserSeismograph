@@ -1,6 +1,11 @@
 # LaserSeismograph
 A laser hanging from a 1m long pendulum, functioning as a seismograph
 
+# Contents
+serial_print.pde is the Processing script used to take in serial values and save in a .csv file. 
+PHOTODIODE_BOARD.ino is the arduino script which runs on the ESP8266.
+The schematic and two layout files are also included. 
+
 # Known Bugs:
 *The layout for the PCB wired the first photodiode, PD0, to the second input on the ADC, and the second photodiode PD1 is wired to the first input on the ADC. 
 This is corrected in software.
